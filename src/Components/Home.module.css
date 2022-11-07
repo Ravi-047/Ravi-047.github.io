@@ -97,16 +97,16 @@
   }
 }
 
-/* . 320 media query styleing  ----------------------*/
+/* . 425 media query styleing  ----------------------*/
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .max_width {
     max-width: 100%;
     margin: auto;
   }
 
   .home {
-    width: 113%;
+    width: 100%;
     padding-top: 100px;
   }
 

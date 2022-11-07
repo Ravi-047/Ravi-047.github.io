@@ -109,3 +109,16 @@
     z-index: 999;
   }
 }
+
+@media (max-width: 425px) {
+  .menu_icon {
+    font-size: 23px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 320px) {
+  .max_width {
+    padding: 0 20px;
+  }
+}
