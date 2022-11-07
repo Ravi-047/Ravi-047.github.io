@@ -1,69 +1,87 @@
-import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import React from "react";
+import styles from "./Navbar.module.css";
+import { useState } from "react";
+import { Link } from "react-scroll";
 
-const NavBar = () => {
-  const [nav, setNav] = useState(false);
+const Navbar = () => {
+  const [click, setClick] = useState(false);
+  const [navbar, setNavbar] = useState(false);
 
   const links = [
     {
       id: 1,
-      link: "home",
+      link: "Home",
     },
     {
       id: 2,
-      link: "about",
+      link: "About",
     },
     {
       id: 3,
-      link: "portfolio",
+      link: "Skills",
     },
     {
       id: 4,
-      link: "experience",
+      link: "Projects",
     },
     {
       id: 5,
-      link: "contact",
+      link: "Contact",
     },
   ];
+
+  const handleClick = () => setClick(!click);
+  const changeBackground = () => {
+    if (window.scrollY > 25) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeBackground);
+
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
+    <>
       <div>
-        <h1 className="text-5xl font-signature ml-2 cursor-pointer">Ravi</h1>
-      </div>
+        <nav
+          className={
+            navbar ? `${styles.navbar} ${styles.active}` : `${styles.navbar}`
+          }
+        >
+          <div className={styles.max_width}>
+            <div className={styles.logo}>
+              Ravi <span>Ranjan</span>
+            </div>
 
-      <ul className="hidden md:flex">
-        {links.map(({ id, link }) => (
-          <li
-            key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
-          >
-            {link}
-          </li>
-        ))}
-      </ul>
-
-      <div
-        onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
-      >
-        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
-      </div>
-
-      {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500 ">
-          {links.map(({ id, link }) => (
-            <li
-              key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl"
+            <ul
+              className={
+                click ? `${styles.menu} ${styles.active}` : `${styles.menu}`
+              }
             >
-              {link}
-            </li>
-          ))}
-        </ul>
-      )}
-    </div>
+              {links.map(({ id, link }) => (
+                <li key={id}>
+                  <Link to={link} smooth duration={500} className={styles.a}>
+                    {link}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+
+            <div className={styles.menu_icon} onClick={handleClick}>
+              {click ? (
+                <FontAwesomeIcon icon={faTimes} />
+              ) : (
+                <FontAwesomeIcon icon={faBars} />
+              )}
+            </div>
+          </div>
+        </nav>
+      </div>
+    </>
   );
 };
 
-export default NavBar;
+export default Navbar;

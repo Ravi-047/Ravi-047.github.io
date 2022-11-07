@@ -1,0 +1,135 @@
+.home {
+  display: flex;
+  width: 100%;
+  /* background: url("../assets/banner.jpg") no-repeat center; */
+  background: black;
+  height: 113vh;
+  color: #fff;
+  min-height: 500px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.max_width {
+  max-width: 100%;
+  padding: 0 80px;
+  margin: auto 0 auto 40px;
+}
+
+.home_content .text_1 {
+  font-size: 27px;
+}
+
+.home_content .text_2 {
+  font-size: 75px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-left: -5px;
+}
+
+.home_content .text_3 {
+  font-size: 40px;
+  margin: 5px 0;
+}
+
+.home_content .text_3 span {
+  color: crimson;
+  font-weight: 700;
+}
+
+.hire_me {
+  display: inline-block;
+  background: crimson;
+  color: white;
+  font-size: 25px;
+  padding: 12px 36px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid crimson;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.hire_me:hover {
+  color: #fff;
+  background: none;
+}
+/* . 947 media query styleing  ----------------------*/
+
+@media (max-width: 947px) {
+  .home_content .text_2 {
+    font-size: 60px;
+  }
+
+  .home_content .text_3 {
+    font-size: 30px;
+  }
+}
+
+/* . 712 media query styleing  ----------------------*/
+
+@media (max-width: 712px) {
+  .max_width {
+    max-width: 100%;
+    padding: 0 50px;
+    margin: auto;
+    /* text-align: center; */
+  }
+
+  .home_content .text_1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .home_content .text_2 {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+
+  .home_content .text_3 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .hire_me {
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+  }
+}
+
+/* . 320 media query styleing  ----------------------*/
+
+@media (max-width: 320px) {
+  .max_width {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .home {
+    width: 113%;
+    padding-top: 100px;
+  }
+
+  .home_content .text_1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .home_content .text_2 {
+    font-size: 45px;
+    margin-bottom: 15px;
+  }
+
+  .home_content .text_3 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .hire_me {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-top: 20px;
+  }
+}

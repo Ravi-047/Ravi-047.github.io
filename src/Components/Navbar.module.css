@@ -1,0 +1,111 @@
+.max_width {
+  max-width: 100%;
+  padding: 0 80px;
+  margin: auto;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 20px 0px;
+  z-index: 999;
+  /* background: crimson; */
+  font-family: "Ubuntu", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.navbar.active {
+  padding: 20px 0px;
+  background: crimson;
+}
+
+.navbar .max_width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.navbar .menu li:hover {
+  color: crimson;
+}
+
+.navbar .logo span {
+  color: crimson;
+  transition: all 0.3 ease;
+}
+
+.navbar.active .logo span {
+  color: white;
+}
+
+.navbar.active .menu li:hover {
+  color: black;
+}
+
+/* menu styling  */
+.menu_icon {
+  color: white;
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
+}
+
+/* responsive media query start  */
+@media (max-width: 947px) {
+  .max_width {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 712px) {
+  .menu {
+    position: fixed;
+    height: 112vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: #111;
+    text-align: center;
+    padding-right: 30px;
+    padding-top: 80px;
+    transition: all 0.5s ease;
+  }
+
+  .navbar .menu.active {
+    left: 0;
+    /* border: 2px solid red; */
+  }
+
+  .navbar .menu li {
+    display: block;
+  }
+  .navbar .menu li .a {
+    display: inline-block;
+    margin: 15px 0;
+    font-size: 25px;
+  }
+  .menu_icon {
+    display: block;
+    z-index: 999;
+  }
+}

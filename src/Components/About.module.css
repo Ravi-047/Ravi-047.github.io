@@ -1,0 +1,181 @@
+.max_width {
+  max-width: 100%;
+  padding: 0 80px;
+  margin: auto 0 auto 40px;
+}
+.section_about {
+  padding: 100px 0;
+}
+
+.about {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.about .title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.about .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 190px;
+  height: 3px;
+  background: #111;
+  transform: translate(-50%);
+}
+
+.about .title::after {
+  content: "Who I am";
+  position: absolute;
+  bottom: -13px;
+  left: 50%;
+  font-size: 20px;
+  color: crimson;
+  padding: 5px;
+  background: #fff;
+  transform: translate(-50%);
+}
+
+.about .about_content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about .about_content .left {
+  width: 45%;
+}
+
+.about .about_content .left img {
+  height: 400px;
+  width: 400px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.about .about_content .right {
+  width: 55%;
+}
+
+.about .about_content .right .text {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.about .about_content .right .text span {
+  color: crimson;
+}
+
+.about .about_content .right p {
+  text-align: justify;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.about .about_content .right .cv {
+  display: inline-block;
+  background: crimson;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 6px;
+  margin-top: 20px;
+  border: 2px solid crimson;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.about .about_content .right .cv:hover {
+  color: crimson;
+  background: none;
+}
+
+/* .  1189px media query styleing  ----------------------*/
+
+@media (max-width: 1189px) {
+  .about .about_content .left img {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+/* .  947 media query styleing  ----------------------*/
+
+@media (max-width: 947px) {
+  .max_width {
+    max-width: 800px;
+  }
+
+  .about .about_content .column {
+    width: 100%;
+  }
+
+  .about .about_content .left {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+  }
+
+  .about .about_content .right {
+    flex: 100%;
+  }
+}
+
+/* . 712 media query styleing  ----------------------*/
+
+@media (max-width: 712px) {
+}
+
+/* . 320 media query styleing  ----------------------*/
+
+@media (max-width: 320px) {
+  .max_width {
+    max-width: 100%;
+    padding: 0px 40px 0px 0px;
+    margin: auto 0 auto 40px;
+  }
+
+  .about {
+    width: 113%;
+  }
+  .about .title {
+    font-size: 25px;
+  }
+  .about .title::before {
+    content: "";
+    width: 140px;
+  }
+
+  .about .title::after {
+    bottom: -10px;
+    font-size: 16px;
+    width: 70px;
+  }
+  .about .about_content .left {
+    display: flex;
+    justify-content: center;
+    margin: 0 0px 60px;
+  }
+
+  .about .about_content .right .text {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .about .about_content .right .cv {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
