@@ -1,7 +1,7 @@
 .max_width {
   max-width: 100%;
   padding: 0 80px;
-  margin: auto 0 auto 40px;
+  /* margin: auto 0 auto 40px; */
 }
 .section_about {
   padding: 100px 0;

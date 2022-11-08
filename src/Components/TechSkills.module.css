@@ -1,0 +1,78 @@
+.max_width {
+  max-width: 100%;
+}
+
+.section_tech {
+  padding: 100px 0;
+}
+
+.tech {
+  background: black;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+
+.tech .title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.tech .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 260px;
+  height: 3px;
+  background: white;
+  transform: translate(-50%);
+}
+
+.tech .title::after {
+  content: "What I know";
+  position: absolute;
+  bottom: -13px;
+  left: 50%;
+  font-size: 20px;
+  color: crimson;
+  padding: 5px;
+  background: black;
+  transform: translate(-50%);
+}
+
+.tech_content {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 40px;
+  row-gap: 40px;
+  margin-top: 100px;
+}
+
+.tech_content .each_skills {
+  text-align: center;
+  padding: 20px 0px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.tech_content .each_skills:hover {
+  scale: 1.09;
+  background: #111;
+}
+.tech_content .each_skills img {
+  width: 30%;
+}
+
+.skill_title {
+  margin-top: 10px;
+  font-weight: 600;
+}
