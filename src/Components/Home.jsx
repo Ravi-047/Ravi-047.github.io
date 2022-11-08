@@ -1,10 +1,14 @@
 import React from "react";
 import styles from "./Home.module.css";
+import SocialLinks from "./SocialLinks";
 
 const Home = () => {
   return (
     <div>
       <section className={styles.home}>
+        <div>
+          <SocialLinks />
+        </div>
         <div className={styles.max_width}>
           <div className={styles.home_content}>
             <div className={styles.text_1}>Hello, my name is</div>
