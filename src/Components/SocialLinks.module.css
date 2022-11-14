@@ -1,17 +1,18 @@
 .social_links {
-  width: 20%;
+  width: 250px;
   position: absolute;
   top: 34%;
-  right: -14%;
-  color: white;
-  background: crimson;
-  border-radius: 8px;
+  right: 0%;
+  background: transparent;
+  overflow-x: hidden;
 }
 
 .list {
+  position: relative;
+  left: 72%;
   list-style: none;
   text-decoration: none;
-  width: 100%;
+  width: 250px;
   height: 4rem;
   display: flex;
   justify-content: space-between;
@@ -37,14 +38,60 @@
   width: 3rem;
   height: 3rem;
 }
+.social_links > ul > li:nth-child(1) {
+  border-bottom-left-radius: 0px;
+}
 
-.list:hover {
+.social_links > ul > li:nth-child(4) {
+  border-top-left-radius: 0px;
+}
+
+.social_links > ul > li:nth-child(2),
+li:nth-child(3) {
+  border-radius: 0px;
+}
+
+.social_links .list:hover {
   transform: translateX(-150px);
   border-radius: 8px;
 }
 
 @media (max-width: 1024px) {
+  .social_links .list:hover {
+    transform: translateX(0px);
+    border-radius: 0px;
+  }
+}
+
+@media (max-width: 425px) {
   .social_links {
-    display: none;
+    width: 150px;
+    top: 52%;
+  }
+
+  .list {
+    height: 2.1rem;
+    font-size: 15px;
+  }
+
+  .list a {
+    gap: 10px;
+    width: 100%;
+  }
+
+  .list a svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .social_links {
+    width: 150px;
+    top: 55%;
+  }
+
+  .list {
+    height: 2rem;
   }
 }

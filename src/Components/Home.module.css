@@ -48,6 +48,7 @@
   border: 2px solid crimson;
   transition: all 0.5s ease;
   cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .hire_me:hover {
