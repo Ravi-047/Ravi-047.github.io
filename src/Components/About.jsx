@@ -18,14 +18,13 @@ const About = () => {
                 I'm Ravi Ranjan Ram and I'm a <span>Developer</span>
               </div>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Aliquam, non. Facilis repellat ea molestias labore odit sequi
-                totam, reprehenderit repellendus quis voluptas earum, magnam
-                provident necessitatibus recusandae velit ab exercitationem
-                dolores, iusto neque at consequatur voluptate cupiditate
-                laborum. Qui repudiandae ad perspiciatis beatae architecto alias
-                tenetur nulla, pariatur amet dolores accusantium, neque ratione
-                placeat consequuntur quae ipsum quod minima quas.
+                A full stack web developer having knowledge in Data Structure,
+                Algorithms, and Programming languages. Knowing JavaScript, HTML,
+                CSS, React, Redux, Mern Stack, MongoDB and Chakra UI, I have
+                made some solo and collaborative projects and continue to have
+                some experience as well as acquiring more knowledge. Now I'm
+                looking forward to enhance my skills in a challenging work
+                environment.
               </p>
               <button className={styles.cv}>Download CV</button>
             </div>

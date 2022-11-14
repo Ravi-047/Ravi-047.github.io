@@ -76,3 +76,32 @@
   margin-top: 10px;
   font-weight: 600;
 }
+
+/* responsive code  */
+
+@media (max-width: 768px) {
+  .tech_content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 425px) {
+  .tech_content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tech .title {
+    font-size: 25px;
+  }
+
+  .tech .title::before {
+    content: "";
+    width: 170px;
+  }
+
+  .tech .title::after {
+    bottom: -10px;
+    font-size: 16px;
+    width: 100px;
+  }
+}

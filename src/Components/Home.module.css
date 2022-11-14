@@ -7,6 +7,7 @@
   color: #fff;
   min-height: 500px;
   font-family: "Josefin Sans", sans-serif;
+  overflow: hidden;
 }
 
 .max_width {
