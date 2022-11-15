@@ -18,6 +18,10 @@ import postman from "../assets/skills/postman.png";
 import redux from "../assets/skills/Redux.png";
 import typescript from "../assets/skills/typescript-logo.svg";
 import rapidapi from "../assets/skills/rapidapi.webp";
+import json from "../assets/skills/JSON.png";
+import netlify from "../assets/skills/netlify.png";
+import npm_ from "../assets/skills/npm.svg";
+import versel from "../assets/skills/vercel.png";
 
 const TechSkills = () => {
   const techs = [
@@ -116,6 +120,30 @@ const TechSkills = () => {
       src: typescript,
       title: "TypeScript",
       style: "rgb(0,122,204) 0px 5px 15px",
+    },
+    {
+      id: 17,
+      src: json,
+      title: "JSON",
+      style: "rgb(151,119,168) 0px 5px 15px",
+    },
+    {
+      id: 18,
+      src: netlify,
+      title: "Netlify",
+      style: "rgb(37,199,183) 0px 5px 15px",
+    },
+    {
+      id: 19,
+      src: npm_,
+      title: "NPM",
+      style: "rgb(193,33,39) 0px 5px 15px",
+    },
+    {
+      id: 20,
+      src: versel,
+      title: "Versel",
+      style: "rgb(255,255,255) 0px 5px 15px",
     },
   ];
 
