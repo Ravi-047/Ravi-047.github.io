@@ -1,0 +1,36 @@
+.project {
+  padding: 100px 0px;
+}
+
+.project .title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.project .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 200px;
+  height: 3px;
+  background: black;
+  transform: translate(-50%);
+}
+
+.project .title::after {
+  content: "My Work";
+  position: absolute;
+  bottom: -13px;
+  left: 50%;
+  font-size: 20px;
+  color: crimson;
+  padding: 5px;
+  background: white;
+  transform: translate(-50%);
+}

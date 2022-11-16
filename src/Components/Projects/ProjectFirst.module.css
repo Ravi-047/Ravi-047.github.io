@@ -1,0 +1,80 @@
+.project__1 {
+  width: 90%;
+  margin: auto;
+  padding: 30px 15px;
+  border-radius: 10px;
+  background: black;
+  cursor: pointer;
+  color: white;
+  box-shadow: crimson 0px -12px 30px, crimson 0px 4px 6px, crimson 0px 12px 13px,
+    crimson 0px -3px 5px;
+}
+
+.project__1:hover {
+  box-shadow: rgb(252, 38, 0) 0px -12px 30px, rgb(252, 38, 0) 0px 4px 6px,
+    rgb(252, 38, 0) 0px 12px 13px, rgb(252, 38, 0) 0px -3px 5px;
+}
+
+.project_title {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.single_project {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.img_slider {
+  width: 50%;
+}
+
+.project_dis {
+  width: 50%;
+}
+
+.project_dis > h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: crimson;
+}
+
+.project_dis > p {
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+}
+.source_live {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.source_live .source_git {
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  background: crimson;
+  border: 2px solid crimson;
+  color: white;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+
+.source_live .source_git:hover {
+  background: transparent;
+  color: crimson;
+  cursor: pointer;
+}
