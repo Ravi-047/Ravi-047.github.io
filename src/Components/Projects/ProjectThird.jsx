@@ -10,14 +10,14 @@ import "./ProjectStyle.css";
 import img1 from "./News_app/1_home.png";
 import img2 from "./News_app/2_headlines.png";
 
-const ProjectFirst = () => {
+const ProjectThird = () => {
   const slide = [img1, img2, img1, img2, img1, img2];
 
   return (
     <div>
       <section className={styles.project__1}>
         <div>
-          <h2 className={styles.project_title}>Project first</h2>
+          <h2 className={styles.project_title}>Project Third</h2>
           <div className={styles.single_project}>
             <div className={styles.img_slider}>
               <Carousel autoPlay infiniteLoop>
@@ -66,4 +66,4 @@ const ProjectFirst = () => {
   );
 };
 
-export default ProjectFirst;
+export default ProjectThird;

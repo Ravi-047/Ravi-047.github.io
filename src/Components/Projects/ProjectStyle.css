@@ -1,0 +1,6 @@
+@media (max-width: 425px) {
+  .thumbs-wrapper {
+    border: 2px solid green;
+    display: none;
+  }
+}

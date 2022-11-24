@@ -8,6 +8,7 @@
   color: white;
   box-shadow: crimson 0px -12px 30px, crimson 0px 4px 6px, crimson 0px 12px 13px,
     crimson 0px -3px 5px;
+  transition: all 0.5s ease;
 }
 
 .project__1:hover {
@@ -26,6 +27,11 @@
   display: flex;
   flex-direction: row;
   gap: 20px;
+}
+
+.reverse_column_direction {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .img_slider {
@@ -77,4 +83,68 @@
   background: transparent;
   color: crimson;
   cursor: pointer;
+}
+
+.icon_style {
+  font-size: 18px;
+}
+
+/* responsive code  */
+
+@media (max-width: 1024px) {
+  .project__1 {
+    width: 95%;
+    padding: 10px;
+  }
+  .project_dis > h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .project_dis > p {
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 12px;
+  }
+
+  .source_live .source_git {
+    font-size: 15px;
+  }
+}
+
+/* tablet   */
+
+@media (max-width: 768px) {
+  .single_project {
+    flex-direction: column;
+  }
+
+  .img_slider {
+    width: 100%;
+  }
+
+  .project_dis {
+    width: 100%;
+  }
+
+  .source_live {
+    width: 290px;
+    margin: auto;
+  }
+
+  .source_live .source_git {
+    margin: auto;
+  }
+}
+
+/* mobile  */
+
+@media (max-width: 425px) {
+  .project__1 {
+    width: 100%;
+  }
+
+  .project_title {
+    font-size: 21px;
+  }
 }

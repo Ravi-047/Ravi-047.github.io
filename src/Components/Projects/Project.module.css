@@ -34,3 +34,26 @@
   background: white;
   transform: translate(-50%);
 }
+
+.all_projects {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+@media (max-width: 425px) {
+  .project .title {
+    font-size: 25px;
+  }
+
+  .project .title::before {
+    content: "";
+    width: 170px;
+  }
+
+  .project .title::after {
+    bottom: -10px;
+    font-size: 16px;
+    width: 80px;
+  }
+}

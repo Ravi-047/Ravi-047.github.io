@@ -10,15 +10,17 @@ import "./ProjectStyle.css";
 import img1 from "./News_app/1_home.png";
 import img2 from "./News_app/2_headlines.png";
 
-const ProjectFirst = () => {
+const ProjectSecond = () => {
   const slide = [img1, img2, img1, img2, img1, img2];
 
   return (
     <div>
       <section className={styles.project__1}>
         <div>
-          <h2 className={styles.project_title}>Project first</h2>
-          <div className={styles.single_project}>
+          <h2 className={styles.project_title}>Project Second</h2>
+          <div
+            className={`${styles.single_project} ${styles.reverse_column_direction}`}
+          >
             <div className={styles.img_slider}>
               <Carousel autoPlay infiniteLoop>
                 {slide.map((item, i) => (
@@ -66,4 +68,4 @@ const ProjectFirst = () => {
   );
 };
 
-export default ProjectFirst;
+export default ProjectSecond;
