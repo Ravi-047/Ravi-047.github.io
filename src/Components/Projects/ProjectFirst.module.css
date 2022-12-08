@@ -6,14 +6,7 @@
   background: black;
   cursor: pointer;
   color: white;
-  box-shadow: crimson 0px -12px 30px, crimson 0px 4px 6px, crimson 0px 12px 13px,
-    crimson 0px -3px 5px;
   transition: all 0.5s ease;
-}
-
-.project__1:hover {
-  box-shadow: rgb(252, 38, 0) 0px -12px 30px, rgb(252, 38, 0) 0px 4px 6px,
-    rgb(252, 38, 0) 0px 12px 13px, rgb(252, 38, 0) 0px -3px 5px;
 }
 
 .project_title {

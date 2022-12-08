@@ -4,7 +4,7 @@ import styles from "./Project.module.css";
 import ProjectSecond from "./ProjectSecond";
 import ProjectThird from "./ProjectThird";
 import ProjectFourth from "./ProjectFourth";
-import MiniProject from "../MiniProjects/MiniProject";
+// import MiniProject from "../MiniProjects/MiniProject";
 
 const Project = () => {
   return (
@@ -16,10 +16,10 @@ const Project = () => {
           <ProjectSecond />
           <ProjectThird />
           <ProjectFourth />
-          <div>
+          {/* <div>
             <h3>Mini Projects</h3>
             <MiniProject />
-          </div>
+          </div> */}
         </div>
       </section>
     </div>

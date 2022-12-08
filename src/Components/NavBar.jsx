@@ -30,6 +30,10 @@ const Navbar = () => {
       id: 5,
       link: "Contact",
     },
+    {
+      id: 6,
+      link: "Resume",
+    },
   ];
 
   const handleClick = () => setClick(!click);

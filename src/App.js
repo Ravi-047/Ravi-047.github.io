@@ -4,9 +4,11 @@
 
 import './App.css';
 import About from './Components/About';
+import ContactMe from './Components/ContactMe';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import Project from './Components/Projects/Project';
+import SocialMedia from './Components/SocialMedia';
 import TechSkills from './Components/TechSkills';
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
       <About />
       <TechSkills />
       <Project />
+      <ContactMe />
+      <SocialMedia />
     </div>
   );
 }
