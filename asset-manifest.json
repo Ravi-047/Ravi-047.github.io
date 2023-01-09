@@ -1,18 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d74b26c.css",
-    "main.js": "/static/js/main.54e70944.js",
+    "main.css": "/static/css/main.1e1c6dd1.css",
+    "main.js": "/static/js/main.76e814af.js",
     "static/js/787.dae669e1.chunk.js": "/static/js/787.dae669e1.chunk.js",
     "static/media/profile_ravi.png": "/static/media/profile_ravi.7217ccd7c4968d31c2c2.png",
+    "static/media/kimaye1.png": "/static/media/kimaye1.7cceacaca52d8fe4c3c3.png",
+    "static/media/skinStore1.png": "/static/media/skinStore1.ffa3a167e72c1fc57343.png",
+    "static/media/kimaye2.png": "/static/media/kimaye2.73e60a4b5d4f2fe657d4.png",
+    "static/media/kimaye3.png": "/static/media/kimaye3.ef4d759bcbf2c27fa7e4.png",
+    "static/media/kimaye4.png": "/static/media/kimaye4.a6123fe3cfff9f21f45f.png",
+    "static/media/kimaye5.png": "/static/media/kimaye5.0114ccf8d8bbfd4c12ca.png",
+    "static/media/skinStore5.png": "/static/media/skinStore5.53f533a2523fdaff002d.png",
+    "static/media/skinStore3.png": "/static/media/skinStore3.2522d004560fd1e60061.png",
+    "static/media/skinStore2.png": "/static/media/skinStore2.6f0106d8d05454dcaa82.png",
+    "static/media/kimaye6.png": "/static/media/kimaye6.47a67fce8c7548b2e508.png",
+    "static/media/skinStore6.png": "/static/media/skinStore6.cc3467ca94959f7b7fb7.png",
+    "static/media/skinStore4.png": "/static/media/skinStore4.8f4b749baedd17ba1967.png",
     "static/media/main-home.svg": "/static/media/main-home.a8572aa32cdf261007cc9ddfa7db346b.svg",
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/index.html",
-    "main.2d74b26c.css.map": "/static/css/main.2d74b26c.css.map",
-    "main.54e70944.js.map": "/static/js/main.54e70944.js.map",
+    "main.1e1c6dd1.css.map": "/static/css/main.1e1c6dd1.css.map",
+    "main.76e814af.js.map": "/static/js/main.76e814af.js.map",
     "787.dae669e1.chunk.js.map": "/static/js/787.dae669e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d74b26c.css",
-    "static/js/main.54e70944.js"
+    "static/css/main.1e1c6dd1.css",
+    "static/js/main.76e814af.js"
   ]
 }
