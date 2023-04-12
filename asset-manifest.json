@@ -1,30 +1,42 @@
 {
   "files": {
-    "main.css": "/static/css/main.7c0dee87.css",
-    "main.js": "/static/js/main.b40d392c.js",
+    "main.css": "/static/css/main.4a188677.css",
+    "main.js": "/static/js/main.aef8c8a7.js",
     "static/js/787.dae669e1.chunk.js": "/static/js/787.dae669e1.chunk.js",
     "static/media/profile_ravi.png": "/static/media/profile_ravi.7217ccd7c4968d31c2c2.png",
     "static/media/kimaye1.png": "/static/media/kimaye1.7cceacaca52d8fe4c3c3.png",
     "static/media/skinStore1.png": "/static/media/skinStore1.ffa3a167e72c1fc57343.png",
+    "static/media/aero2.png": "/static/media/aero2.f034cd512d0c56373719.png",
     "static/media/kimaye2.png": "/static/media/kimaye2.73e60a4b5d4f2fe657d4.png",
+    "static/media/aero4.png": "/static/media/aero4.d3f9eb04c4c2a3e4b24b.png",
     "static/media/kimaye3.png": "/static/media/kimaye3.ef4d759bcbf2c27fa7e4.png",
+    "static/media/rentoMojo6.png": "/static/media/rentoMojo6.6151dcece495d1a25b42.png",
+    "static/media/aero5.png": "/static/media/aero5.f5adf804dbafe65b56f6.png",
+    "static/media/aero1.png": "/static/media/aero1.51dc1de2df59e8ea3494.png",
     "static/media/kimaye4.png": "/static/media/kimaye4.a6123fe3cfff9f21f45f.png",
     "static/media/kimaye5.png": "/static/media/kimaye5.0114ccf8d8bbfd4c12ca.png",
     "static/media/skinStore5.png": "/static/media/skinStore5.53f533a2523fdaff002d.png",
+    "static/media/rentoMojo2.png": "/static/media/rentoMojo2.cc2034bf24c4f80c0313.png",
+    "static/media/rentoMojo4.png": "/static/media/rentoMojo4.ed9951ebc285f3c761ad.png",
+    "static/media/aero6.png": "/static/media/aero6.1d01319088691c94e778.png",
     "static/media/skinStore3.png": "/static/media/skinStore3.2522d004560fd1e60061.png",
     "static/media/skinStore2.png": "/static/media/skinStore2.6f0106d8d05454dcaa82.png",
+    "static/media/rentoMojo3.png": "/static/media/rentoMojo3.f95689c54f4c52eaf30d.png",
     "static/media/kimaye6.png": "/static/media/kimaye6.47a67fce8c7548b2e508.png",
+    "static/media/rentoMojo1.png": "/static/media/rentoMojo1.721cad6a9d089cca4f29.png",
     "static/media/skinStore6.png": "/static/media/skinStore6.cc3467ca94959f7b7fb7.png",
+    "static/media/aero3.png": "/static/media/aero3.e52a6f5586be8e104d86.png",
+    "static/media/rentoMojo5.png": "/static/media/rentoMojo5.2e28d4bede020d1812a4.png",
     "static/media/skinStore4.png": "/static/media/skinStore4.8f4b749baedd17ba1967.png",
     "static/media/main-home.svg": "/static/media/main-home.a8572aa32cdf261007cc9ddfa7db346b.svg",
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/index.html",
-    "main.7c0dee87.css.map": "/static/css/main.7c0dee87.css.map",
-    "main.b40d392c.js.map": "/static/js/main.b40d392c.js.map",
+    "main.4a188677.css.map": "/static/css/main.4a188677.css.map",
+    "main.aef8c8a7.js.map": "/static/js/main.aef8c8a7.js.map",
     "787.dae669e1.chunk.js.map": "/static/js/787.dae669e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c0dee87.css",
-    "static/js/main.b40d392c.js"
+    "static/css/main.4a188677.css",
+    "static/js/main.aef8c8a7.js"
   ]
 }
