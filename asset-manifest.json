@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.4a188677.css",
-    "main.js": "/static/js/main.aef8c8a7.js",
+    "main.css": "/static/css/main.141eedf5.css",
+    "main.js": "/static/js/main.00c59f93.js",
     "static/js/787.dae669e1.chunk.js": "/static/js/787.dae669e1.chunk.js",
-    "static/media/profile_ravi.png": "/static/media/profile_ravi.7217ccd7c4968d31c2c2.png",
     "static/media/kimaye1.png": "/static/media/kimaye1.7cceacaca52d8fe4c3c3.png",
     "static/media/skinStore1.png": "/static/media/skinStore1.ffa3a167e72c1fc57343.png",
     "static/media/aero2.png": "/static/media/aero2.f034cd512d0c56373719.png",
@@ -16,6 +15,7 @@
     "static/media/kimaye4.png": "/static/media/kimaye4.a6123fe3cfff9f21f45f.png",
     "static/media/kimaye5.png": "/static/media/kimaye5.0114ccf8d8bbfd4c12ca.png",
     "static/media/skinStore5.png": "/static/media/skinStore5.53f533a2523fdaff002d.png",
+    "static/media/ravir2.jpeg": "/static/media/ravir2.1224fc9f5dcf931cace9.jpeg",
     "static/media/rentoMojo2.png": "/static/media/rentoMojo2.cc2034bf24c4f80c0313.png",
     "static/media/rentoMojo4.png": "/static/media/rentoMojo4.ed9951ebc285f3c761ad.png",
     "static/media/aero6.png": "/static/media/aero6.1d01319088691c94e778.png",
@@ -31,12 +31,12 @@
     "static/media/main-home.svg": "/static/media/main-home.a8572aa32cdf261007cc9ddfa7db346b.svg",
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/index.html",
-    "main.4a188677.css.map": "/static/css/main.4a188677.css.map",
-    "main.aef8c8a7.js.map": "/static/js/main.aef8c8a7.js.map",
+    "main.141eedf5.css.map": "/static/css/main.141eedf5.css.map",
+    "main.00c59f93.js.map": "/static/js/main.00c59f93.js.map",
     "787.dae669e1.chunk.js.map": "/static/js/787.dae669e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a188677.css",
-    "static/js/main.aef8c8a7.js"
+    "static/css/main.141eedf5.css",
+    "static/js/main.00c59f93.js"
   ]
 }
